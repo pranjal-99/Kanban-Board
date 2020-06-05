@@ -1,0 +1,44 @@
+.App {
+  font-family: Roboto;
+}
+.navbar_css {
+  height: 50px;
+  width: auto;
+  font-size: 35px;
+  color: #fff;
+  background-color: #989286;
+  border-bottom: 5px solid #6f6b60;
+  text-align: center;
+}
+.icon {
+  margin-left: 10px;
+}
+.Data {
+  padding-top: 10px;
+  text-align: center;
+}
+.row_spacing {
+  padding-top: 50px;
+}
+.card {
+  margin-left: 50px;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-image: url(https://i.pinimg.com/originals/43/01/87/430187305bee5f99279219b28f56068f.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.input {
+  border-radius: 10px;
+  width: 30%;
+}
+.list-group-item {
+  background-color: #beb8a8 !important;
+}
+.spacing {
+  margin-left: 36px;
+}
