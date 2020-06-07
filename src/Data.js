@@ -35,7 +35,7 @@ export default function Data(props) {
         value={add ? "" : data.task}
         placeholder="Enter Task"
       />{" "}
-      <Button onClick={transfer} variant="secondary" size="sm" type="submit">
+      <Button onClick={transfer} variant="secondary" size="sm" type="submit" disabled={data.task.length>0?false:true}>
         Submit
       </Button>
     </div>
