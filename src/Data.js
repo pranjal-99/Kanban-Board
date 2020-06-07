@@ -23,6 +23,10 @@ export default function Data(props) {
   function transfer(event) {
     props.onAdd(data);
     setadd(true);
+    let obj = { task: "", stage: 0 };
+    Setdata(prevdata => {
+      return obj;
+    });
     event.preventDefault();
   }
 
