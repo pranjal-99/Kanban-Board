@@ -72,9 +72,6 @@ export default function App() {
           />
         ))}
       </div>
-      <footer>
-         <p>Copyright@Pranjal 2020</p>
-      </footer>
     </div>
   );
 }
