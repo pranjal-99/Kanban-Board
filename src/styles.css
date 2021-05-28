@@ -19,6 +19,7 @@
 }
 .row_spacing {
   padding-top: 50px;
+  margin: 0px!important;
 }
 .card {
   margin-left: 50px;
@@ -32,13 +33,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.footer {
-     text-align: center;
-    margin-top: 28%;
-    color: white;
-    font-weight: bold;
-    font-size: 1.25rem;
-}
 .input {
   border-radius: 10px;
   width: 30%;
@@ -48,4 +42,13 @@ body {
 }
 .spacing {
   margin-left: 36px;
+}
+
+.cardHolder {
+  height: 477px;
+  overflow:scroll;
+}
+
+.cardHolder::-webkit-scrollbar {
+  width:0px;
 }
