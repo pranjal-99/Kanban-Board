@@ -53,6 +53,10 @@ body {
   width:0px;
 }
 
-.cardHolder::-webkit-scrollbar {
-  width:0px;
+
+@media (max-width:1014px ){ 
+  
+.cardHolder {
+  height: 100px;
+}
 }
