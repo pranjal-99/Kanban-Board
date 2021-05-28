@@ -11,7 +11,7 @@ export default function Cards(props) {
     <div className="col-lg-4" key={props.index}>
       <Card className="card" style={{ width: "18rem" }}>
         <Card.Header>{props.Name}</Card.Header>
-        <ListGroup variant="flush">
+        <ListGroup className="cardHolder" variant="flush">
           {props.tasks
             .filter(value => value.stage === props.index)
             .map((filteredvalue, index) => (
